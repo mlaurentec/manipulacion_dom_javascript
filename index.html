@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulación del DOM básica - Curso Práctico de JavaScript</title>
+</head>
+<body>
+  <h1>Manipulación del DOM básica</h1>
+
+  <input id="calculo1" placeholder="Escribe algo aquí" />
+  <button id="btnCalcular" type="button" class="btn btn-primary" onclick="btnOnClick()">Calcular</button>
+  <button id="btnlimpiar" type="button" class="btn btn-primary" onclick="limpiar()">Limpiar</button>
+
+
+  <div class="card mt-5" style="width: 18rem;" >
+    <img class="card-img-top" id="image_github" alt="imagen de perfil">
+  <div class="card-body">
+    <h5 class="card-title">Respuesta</h5>
+    <p class="card-text" id="result"></p>
+  </div>
+
+</div>
+
+  <p id="result"></p>
+
+  <script src="./script.js"></script>
+</body>
+</html>
